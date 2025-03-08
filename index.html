@@ -1,0 +1,349 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 3</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 4</small>
+			Persuasive or Deceptive Visualization?
+		</h1>
+
+		<p>
+			<strong>Adam Rashid</strong> — <em>abrashid@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+    <h2>Proposition: Developing nations are not doing enough of their share to reduce green house gas (ghg) emissions</h2>
+
+		<section>
+      <h3>FOR the Proposition</h3>
+
+      <figure>
+				<img src="imgs/ForProp.png" width="1050px" height="100%" alt="" />
+				<figcaption>
+					(Left): This figure shows how emerging and developing economies (red) have <b>overtaken</b> advanced economies (green) in their share of total global greenhouse gas emissions <b>since around 1980</b>, as indicated by the dashed vertical line. The 100% stacked area chart tracks each group’s cumulative percentage of emissions from 1970–2023. (Right): the pie chart highlights the current day split of ghg emissions (approximately 75% vs. 25%). The annotation at the bottom underscores that developing nations now produce about <b>four times</b> as many emissions as developed nations overall.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li><b>Reporting on Raw Total Emissions Rather than Normalizing for Number of Countries, 
+					Score: −1.5 (Pretty manipulative)</b>
+					<ul>
+						<li>
+						Rationale:
+						I chose to use the IMF's grouping of all “emerging and developing economies” together into a single aggregate and comparing that raw total to the total of “advanced economies.” Because the developing group includes more countries and broader regions, this can inflate the impression that developing nations dominate emissions overall. This required me to transform the data by summing the yearly emissions for each group and then computing the cumulative percentage of emissions for each group over each year in the dataset.
+						</li>
+						<li>
+						Persuasive Aspect:
+						Presenting a raw total for a large, diverse group (developing nations) versus a smaller set (advanced economies) can amplify the difference. It subtly supports the argument that the developing world has “taken over” in emissions, without highlighting that we are combining many more countries.
+						</li>
+						<li>
+						What Worked:
+						It strengthens the visual impact of the developing nations’ share on the chart—visually reinforcing the storyline that developed nations are overshadowed.
+						</li>
+						<li>
+						What Didn’t:
+						It is less “earnest” because it does not account for the fact that we are aggregating far more countries and larger geographic areas into the “developing” category. Viewers might realize the discrepancy in group sizes and distrust the plots message.
+						</li>
+						<li>
+						Alternatives Tried:
+						Splitting out different subregions or normalizing for the number of countries would have been more nuanced, but that complicated the chart and weakened the argument.
+						</li>
+						<li>
+						Why I Settled on This:
+						Keeping it simple—just two aggregated categories—makes the chart easy to read and drives home the key comparison. Despite being slightly manipulative, it effectively highlights the overarching narrative.
+						</li>
+					</ul>
+				</li>
+
+				<li><b>Using a 100% Stacked Area Chart, Score: +1 (mostly earnest)</b>
+					<ul>
+						<li>
+						Rationale:
+						I wanted to show the relative share of total global emissions for each group over time (1970–2023). A 100% stacked area chart is a clear way to compare proportions.
+						</li>
+						<li>
+						Persuasive Aspect: This emphasizes how the Emerging and Developing Economies share has grown large, while Advanced Economies have declined in proportion.
+						</li>
+						<li>
+						What Worked: The chart cleanly communicates that each year’s total is 100%, making it easy to see which group dominates at any point.
+						</li>
+						<li>
+						What Didn’t: Absolute emissions are not visible (just proportions). This can hide the fact that total emissions have grown dramatically.
+						</li>
+						<li>
+						Alternatives Considered:
+							<ul>
+									<li>A stacked bar chart for each year. But it would clutter the timeline with many discrete bars.</li>
+									<li>A side-by-side bar for each year, but that’s less direct for showing the sum equals 100%.</li>
+							</ul>
+						</li>
+						<li>
+						Why I Settled on This: The area approach is simpler to read and highlights the changing fraction over time.
+						</li>
+					</ul>
+				</li>
+				<li><b>Choosing Red (Developing) vs. Green (Advanced), Score: -1 (somewhat deceptive, mild bias)</b>
+					<ul>
+						<li>
+							Rationale: Red/green is a common color pair for contrasting two categories. I chose red for developing nations and green for advanced economies to bias the viewer toward the idea that the developing world is “bad” and the advanced world is “good” in terms of emissions.
+						</li>
+						<li>
+							Persuasive Aspect: Red can subconsciously imply urgency or a “warning,” and green can imply stability or positivity. This might subtly cast developing nations as the “problem” (red = big portion) or, inversely, cast advanced nations as “safe” or “environmentally friendly.”
+						</li>
+						<li>
+							What Worked: Viewers can easily distinguish the two areas. Red stands out strongly on top.
+						</li>	
+						<li>
+							What Didn’t: The color choice could be seen as manipulative or biased. It might make viewers feel that developing nations are “bad” or “dangerous” and advanced nations are “good” or “safe.”
+						</li>
+						<li>
+							Alternatives Considered:
+							<ul>
+								<li>Tried  blue vs. orange and other more neutral color pairs but none pushed the narrative as effectively as red vs green</li>
+								<li>Could have used the same hue with different saturations for a more neutral approach.</li>
+							</ul>
+						</li>
+						<li>
+							Why I Settled on This: Red/green is high-contrast and underscores the “two sides” story quickly.
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<b>Highlighting 1980 with a Vertical Dashed Line, Score: +1 (earnest but strongly guiding the narrative)</b>
+					<ul>
+						<li>
+						Rationale: 1980 is singled out as the approximate year when developing nations’ share surpasses advanced nations.
+						</li>
+						<li>
+						Persuasive Aspect:  A dashed line plus annotation draws the eye to a specific turning point. It can also surprise readers, as it did with myself, on how early developing nations surpassed developed nations in ghg emission share.”
+						</li>
+						<li>
+						What Worked: The line + annotation is an immediate focal point, so the viewer sees that shift in share.
+						</li>
+						<li>
+						What Didn’t: It can be seen as leading the viewer to a specific conclusion which might make the viewer more skeptical of the data.
+						</li>
+						<li>
+						Alternatives Considered:
+							<ul>
+								<li>Could have left the line out and let viewers find the shift themselves.</li>
+								<li>Could have used a different visual cue (like a change in line thickness) to mark the shift.</li>
+							</ul>
+						</li>
+						<li>
+						Why I Settled on This: The line is a clear, direct way to show the key moment when the narrative changes.
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<b>Adding the Pie Chart (Ratio of 4×), Score: -1 (somewhat manipulative to single the story to current time, but also a strong rhetorical device)</b>
+					<ul>
+						<li>
+						Rationale: The pie chart states that “Developing nations produce 4× as many emissions as developed nations” in the current day.
+						</li>
+						<li>
+						Persuasive Aspect:  A small, separate chart can reinforce the big difference. A single ratio is easy to remember (“4× as many”).
+						</li>
+						<li>
+						What Worked: Pie charts are intuitive for showing simple “slice” comparisons—1 vs. 4 is visually striking.
+						</li>
+						<li>
+						What Didn’t: Pie charts can be less precise for comparing more than two slices or if the ratio is close. But here, it’s a big difference (1 vs. 4), so it’s fine.
+						</li>
+						<li>
+						Alternatives Considered:
+							<ul>
+								<li>Could have used a bar chart or a line chart to show the ratio, but a pie chart is more memorable and direct.</li>
+								<li>Could have left the pie chart out and just used the area chart, but the pie chart adds a punchy, memorable fact.</li>
+							</ul>
+						</li>
+						<li>
+							Why I Settled on This: A separate pie highlights the ratio cleanly without distracting from the main timeline. I think it's a very effective rhetorical device to summarize the story in a single number.
+						</li>
+					</ul>
+				</li>
+			</ul>
+    </section>
+
+    <section>
+      <h3>AGAINST the Proposition</h3>
+
+      <figure>
+				<img src="imgs/AgainstProp.png" width="1050px" height="100%" alt="" />
+				<figcaption>
+          This figure compares Emerging and Developing Economies (green bars), Advanced Economies (red bars), and the World average (blue line) in terms of yearly GHG emissions per capita from 1980 to 2023. The bar heights show each group’s per-person emission levels, while the line represents the global mean. Although the gap has narrowed somewhat, advanced economies still emit significantly more per person, as illustrated on the right: <b>one developed-nation individual produces about 3.86 times the emissions of someone in a developing nation</b>.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li>
+					<b>Focusing on Per Capita Emissions Instead of Total Emissions,
+						Score: -0.5 (slightly manipulative)</b>
+					<ul>
+						<li>
+						Rationale: I deliberately chose to divide total emissions by population to show per-person contributions rather than absolute totals. This required to transform the data by summing and averaging the yearly emissions appropriately, then computing emissions / population for each group and year.
+						</li>
+						<li>
+						Persuasive Aspect: Per capita calculations magnify how each individual in a developed nation contributes more to emissions, reinforcing the notion that advanced nations have not done enough. It shifts blame onto developed economies on a personal level.
+						</li>
+						<li>
+						What Worked: It shifts focus away from total emissions (where developing countries still look large historically) and highlights per-person trends, making the difference more dramatic for advanced economies.
+						</li>
+						<li>
+						What Didn’t: Some viewers may feel that total emissions matter more for global impact. The per-capita perspective can minimize absolute scale.
+						</li>
+						<li>
+						Alternatives Considered:
+							<ul>
+								<li>Could have shown both total and per-capita charts side by side. But that might dilute the story.</li>
+								<li>Could have shown a 100% stacked area chart of total emissions. However, that might underscore how large developing nations’ share has become.</li>
+							</ul>
+						</li>
+						<li>
+						Why I Settled on This: Per capita data strongly supports the argument that advanced nations are still responsible for a larger share of emissions per person, thus “not doing enough.”
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<b>Stacked Bars for Advanced & Developing, Plus a World Line, Score: +1 (Earnest)</b>
+					<ul>
+						<li>
+						Rationale: I used per-capita bars for Advanced Economies (red) and Emerging and Developing Economies (green), with a World average line (blue). By focusing on per-person metrics, it becomes clear that advanced economies still emit significantly more per capita than developing ones—even.
+						</li>
+						<li>
+						Persuasive Aspect: Showing that advanced nations remain at the higher end of per-capita emissions underscores that they have not reduced their share enough. Meanwhile, the developing world’s total per-capita output is comparatively lower, even lower than the global average. Again highlighting that developing nations are doing more than their fair share.
+						</li>
+						<li>
+						What Worked: Combining bars for advanced/developing with a line for the world offers multiple points of comparison. Viewers see advanced vs. developing directly in bar form, plus it's easy to compare to the world line at a quick look.
+						</li>
+						<li>
+						What Didn’t: Stacked or overlay bars can sometimes obscure the finer details if many categories were shown. However, with just two regions (advanced, developing) plus a single line, the layout is still manageable.
+						</li>
+						<li>
+						Alternatives Considered:
+							<ul>
+								<li>A 100% stacked approach could highlight proportions, but might hide absolute per-capita differences.</li>
+								<li>Separate subplots for advanced vs. developing might have been too disconnected.</li>
+							</ul>
+						</li>
+						<li>
+						Why I Settled on This: Overlay bars and a world line keep the chart cohesive and direct, highlighting that advanced nations’ per-person emissions remain higher than developing nations—even if total populations differ. I also think the world line adds a useful context for comparison and drives home the point that advanced nations are still emitting much more per person.
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<b>Color Choices: Red for Advanced, Green for Developing, Blue for World,
+						Score: -1 (somewhat deceptive, mild bias)</b>
+					<ul>
+						<li>
+						Rationale: Red is typically associated with urgency or a “warning,” and here it is applied to Advanced Economies to suggest they remain a significant contributor. Green is used for Developing Economies, a color often tied to growth or environment. Blue is the world average.
+						</li>
+						<li>
+						Persuasive Aspect: Associating advanced economies with red subtly hints they bear more blame. Green for developing nations can imply growth or “good” environmental practices even if their group is growing. Blue for the world average is neutral.
+						</li>
+						<li>
+						What Worked: The strong contrast among red, green, and blue ensures each category is visually distinct. Red for advanced economies stands out, emphasizing their higher per-capita values.
+						</li>
+						<li>
+						What Didn’t: Some might expect “red = developing” or “green = advanced,” but flipping that can highlight that advanced nations are the “warning” group.
+						</li>
+						<li>
+						Alternatives Considered:
+							<ul>
+								<li>Blue vs. orange for advanced vs. developing, or a more neutral palette but none were as effective</li>
+								<li>Potentially using the same hue with different saturations.</li>
+							</ul>
+						</li>
+						<li>
+						Why I Settled on This: Red/green/blue is a commonly recognized high-contrast trio, and labeling advanced as red underscores their still-substantial contribution to emissions.
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<b>
+						Silhouette Icons on the Right (1 Red Person vs. ~4 Green People),
+						Score: -1.5 (Pretty manipulative but strongly rhetorical)
+					</b>
+					<ul>
+						<li>
+						Rationale: The figure includes a single red “person” icon (advanced) next to several green “person” icons (developing), with text stating “1 Developed Person is worth 3.86 Developing People’s emissions.” This required to aggregate the total emissions and population for each group, then compute the per-person ratio between the groups which is slightly different than the plot on the left.
+						</li>
+						<li>
+						Persuasive Aspect: This icon-based ratio underscores how a single individual in an advanced economy still emits far more than an individual in the developing world, suggesting advanced nations remain more blameworthy. It visualizes the inequity of per-capita emissions.
+						</li>
+						<li>
+						What Worked: Icons are instantly understandable. The ratio is memorable and straightforward.
+						</li>
+						<li>
+						What Didn’t: Simplifying to a single ratio can overlook population differences and historical context. It can also be seen as manipulative or biased which might make the viewer more skeptical of the data.
+						</li>
+						<li>
+						Alternatives Considered:
+							<ul>
+								<li>A bar or text label might suffice, but icons add a human element to the data.</li>
+							</ul>
+						</li>
+						<li>
+							Why I Settled on This: Icons convey that emissions come from people. The ratio is a stark reminder that advanced economies still hold a higher per-person responsibility and makes the argument more memorable and personal.
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<b>Title & Annotation Emphasis,
+						Score: +0.5 (Somewhat Earnest, but high bias)</b>
+					<ul>
+						<li>
+						Rationale: The main title “Yearly GHG Emissions per Capita (1980–2023)” clarifies that these bars show per-person data. A side annotation near the silhouettes reiterates the ratio: one developed person emits ~3.86 times more than one person in a developing economy.
+						</li>
+						<li>
+						Persuasive Aspect: By explicitly labeling it as per capita, we highlight the continued higher burden advanced economies place on the environment. The annotation draws attention to the stark difference in personal emissions footprints.
+						</li>
+						<li>
+						What Worked: Clear textual labeling avoids confusion between total and per-person data. The ratio annotation helps connect the bar chart to real-world implications.						
+						</li>
+						<li>
+						What Didn’t: If a viewer is interested in absolute totals, they might feel the text downplays advanced economies’ historical or cumulative impact.
+						</li>
+						<li>
+						Alternatives Considered:
+							<ul>
+								<li>A more emotive or dramatic title might have made advanced economies seem even more at fault, but that risked overshadowing the data.</li>
+							</ul>
+						</li>
+						<li>
+						Why I Settled on This: A direct, factual approach ensures the data is front-and-center, while still underscoring that advanced economies remain disproportionately high on a per-person basis.
+						</li>
+					</ul>
+				</li>
+			</ul>
+    </section>
+
+    <section>
+      <h2>Final Reflection</h2>
+
+			<p>Before looking at the data, I hypothesized that developing nations would currently emit more GHGs overall, but that developed nations historically contributed more—making it unfair to judge purely on present-day totals. My initial goal was to reaffirm this bias: highlight the historical context for advanced economies and show that emerging economies now dominate. What surprised me was how factoring in population differences could further shift the story. Once I realized I could analyze per-capita emissions, I found that I could make my point even more compelling. I was surprised at how using this I was able to transform the same dataset in ways that supported completely <b>opposite</b> statements: one claiming developing nations produce four times the total GHG emissions of developed nations, and another insisting that one person in a developed nation emits four times as much as someone in the developing world. What caught me off guard was how effortlessly a single dataset could yield such drastically different conclusions simply by shifting between total vs. per-capita metrics, or by highlighting certain years or categories. This underscored for me the <b>power of data transformation</b>—particularly the ease with which one can steer a reader’s interpretation by selectively reporting specific statistics (e.g., focusing on total vs. focusing on per capita). The process of deciding which transformations to use was not trivial, however; I spent considerable time experimenting with chart types, color palettes, and textual annotations to reinforce each side’s story. It was often more challenging to choose the right metric or ratio (e.g., per-person vs. total, or raw totals vs. normalized shares) than to actually code the plots. For instance, I think I created a total of around 50+ charts for both sides until I landed on an encoding and layout that I thought was both effective yet not too misleading. </p>
+			<p>I now see <b>ethical visualization</b> as a commitment to <b>transparency</b> about the transformations and assumptions behind a chart—so that viewers can grasp why certain metrics were chosen and what the data truly represents. In practice, no visualization is entirely free of bias, because every designer brings an agenda, even if subconsciously. Yet there’s a difference between clarifying a message through data transformations and <b>hiding or misrepresenting</b> the data to push a false narrative. In my experience, <b>visual manipulations</b> like truncated axes, intentionally vague labels, or merging categories in questionable ways cross a line into intentionally misleading the viewer. By contrast, <b>clearly explaining</b> how and why the data is normalized—like showing per-capita emissions—can be acceptable and even beneficial if it reveals genuine insights. Ultimately, I believe an “ethical” boundary is crossed when design tricks cause the viewer to arrive at a conclusion that the data would not naturally support if presented transparently. Hence, while I found it both <b>fascinating and alarming</b> how easily one can pivot the story, I came away with a deeper conviction that visualizers must justify their choices openly to maintain integrity.</p>
+    </section>
+	</main>
+</body>
+</html>
